@@ -18,7 +18,7 @@ const Home = () => {
           <Row>
             <Col lg="6">
               <div className="hero__content">
-                <div className="hero_subtitle d-flex align-items-center">
+                <div className="hero__subtitle d-flex align-items-center">
                   <Subtitle subtitle={"Know Before You Go"} />
                   <img src={worldImg} alt="" />
                 </div>
@@ -39,12 +39,12 @@ const Home = () => {
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box">
+              <div className="hero__img-box mt-4">
                 <video src={heroVedio} alt="" controls />
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box">
+              <div className="hero__img-box mt-5">
                 <img src={heroImg2} alt="" />
               </div>
             </Col>
